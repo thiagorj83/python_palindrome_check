@@ -13,6 +13,6 @@ class CheckPalindrome:
         if raw_text==text_to_compare:
             result=text + ' IS A PALINDROME'
         else:
-            result=' IT\'S NOT A PALINDROME'
+            result=text+ ' IT\'S NOT A PALINDROME'
 
         return print(result)
